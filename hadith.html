@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قرآنك</title>
+    <script src="https://kit.fontawesome.com/a2f50f7889.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="قرآنك.png" alt="" style="margin-left: 50px;">
+            <i class="fa-regular fa-heart"></i>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">الصفحة الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hadith.html">احاديث</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">اذكار</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tafser.html">تفسير</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+    <div class="head">
+        <img src="header.jpeg" alt="" class="header">
+        <h1>مرحبا بك فى تطبيق <span>قرآنك</span></h1>
+    </div>
+
+    <section class="description">
+        <h1>*فضل قراءة القرآن الكريم*</h1>
+
+        <div class="p">
+            <p>يستحب للمسلم أن يداوم على تلاوة القرآن الكريم، وأن يكثر منها، وهو بذلك يتبع سنة جليلة من سنن الإسلام، وقد بين الله سبحانه وتعالى ورسوله الكريم فضل تلاوة القرآن، قال تعالى: {إِنَّ الَّذِينَ يَتْلُونَ كِتَابَ اللَّهِ وَأَقَامُوا الصَّلَاةَ وَأَنْفَقُوا مِمَّا رَزَقْنَاهُمْ سِرًّا وَعَلَانِيَةً يَرْجُونَ تِجَارَةً لَنْ تَبُورَ} [سورة فاطر، آية: 29] وقال الرسول الكريم صلى الله عليه وسلم: «وما اجتمع قوم في بيت من بيوت الله، يتلون كتاب الله، ويتدارسونه بينهم، إلا نزلت عليهم السكينة، وغشيتهم الرحمة وحفتهم الملائكة، وذكرهم الله فيمن عنده».
+
+                وكذلك من فضل قراءة القرآن: تحصيل الحسنات، ونيل الأجر العظيم، وفي ذلك يقول النبي صلى الله عليه وسلم: «من قرأ حرفًا من كتاب الله فله به حسنة، والحسنة بعشر أمثالها، لا أقول (الم) حرف، ولكن ألف حرف، ولام حرف، وميم حرف».
+                
+                ومنه أيضًا: علو شأن قارئ القرآن، ووصوله إلى المكانة العالية والدرجة الرفيعة التي لا تُعطَى لغيره، يقول النبي صلى الله عليه وسلم: «يُقال لصاحب القرآن: اقرأ، وارْقَ، ورتل كما كنت ترتل في الدنيا؛ فإن منزلتك عند آخر آية تقرؤها».</p>
+        </div>
+    </section>
+
+
+
+    <div id="hadithContainer" class="hadith-box">
+        <p id="hadithText">جارِ تحميل الحديث...</p>
+    </div>
+    <div class="buttons">
+        <button id="prevButton" onclick="prevHadith()">السابق</button>
+        <button id="nextButton" onclick="nextHadith()">التالي</button>
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <img src="قرآنك.png" alt="">
+
+        <ul>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
